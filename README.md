@@ -1,1 +1,1 @@
-# upper-case-lower-case-einstein-notation
+# Upper-Case-Lower-Case-Einstein-Notation
