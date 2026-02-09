@@ -1,4 +1,4 @@
-# Upper-Case-Lower-Case-Einstein-Notation
+# Upper-Case-Lower-Case-Einstein-Notation (EinSum)
 
 **Upper-Case-Lower-Case-Einstein-Notation** - A variant of Einstein summation notation where the upper index is used to specify the tiling information while the lower index is used to specify the position within a tile.
 
