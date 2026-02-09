@@ -46,6 +46,13 @@ docker build -t einsql .
 docker run -it einsql
 ```
 
+After entering the docker container, you can run a simple test:
+```bash
+python gan_sparse_test.py # generate the schema
+sh gan_sparse_test_0_build.sh # generate the TACO kernel
+python run_postgresql_2steps.py gan_sparse_test_0_insert.sql gan_sparse_test_0_query.sql # Run the EinSum with PostgreSQL
+```
+
 The Docker image includes:
 - PostgreSQL 12
 - Python 3 with all dependencies
