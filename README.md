@@ -1,10 +1,10 @@
 # Upper-Case-Lower-Case-Einstein-Notation
 
-**Upper-Case-Lower-Case-Einstein-Notation** - A library for optimizing tensor contractions using Einstein notation and generating PostgreSQL queries for database-driven tensor computations.
+**Upper-Case-Lower-Case-Einstein-Notation** - A variant of Einstein summation notation where the upper index is used to specify the tiling information while the lower index is used to specify the position within a tile.
 
 ## Overview
 
-This library bridges the gap between tensor computing and relational databases. It enables PostgreSQL and PlinyCompute to execute complex Einstein summation (einsum) operations through:
+This library bridges the gap between tensor computing and relational engine. It enables PostgreSQL and PlinyCompute to execute complex Einstein summation (einsum) operations through rewriting EinSum into Upper-Case-Lower-Case EinSum:
 
 - **Automatic tiling scheme optimization**: Enumerates all possible tensor tilings and selects the optimal configuration based on a cost model
 - **Query generation**: Produces PostgreSQL queries with Common Table Expressions (CTEs) for efficient execution
