@@ -196,10 +196,6 @@ See the `src/` directory for complete examples:
 2. **Sparsity Awareness**: The cost model automatically accounts for non-zero patterns
 3. **Contraction Order**: Uses opt_einsum for optimal contraction path
 
-## Docker 
-
-docker image is provided for reproduction.
-
 ## License
 
 MIT License
