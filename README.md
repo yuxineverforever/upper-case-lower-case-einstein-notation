@@ -139,10 +139,6 @@ The cost model considers:
 3. **Relational operation cost**: Join and aggregation overhead
 4. **Sparsity**: Fewer non-zero tiles reduce cost
 
-Key constants (configurable):
-- `COMM_COST_MULTIPLIER = 1`: Weight for communication costs
-- `RELOP_COST_MULTIPLIER = 15`: Weight for relational operations
-
 
 ## Running Tests
 
