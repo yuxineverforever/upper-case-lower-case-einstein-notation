@@ -2,6 +2,8 @@
 
 **Upper-Case-Lower-Case-Einstein-Notation** - A variant of Einstein summation notation where the upper index is used to specify the tiling information while the lower index is used to specify the position within a tile.
 
+A JAX-based implementation is here: https://github.com/yuxineverforever/einjax/tree/main
+
 ## Overview
 
 This library bridges the gap between tensor computing and relational engine. It enables PostgreSQL and PlinyCompute to execute complex Einstein summation (einsum) operations through rewriting EinSum into Upper-Case-Lower-Case EinSum:
